@@ -1,0 +1,17 @@
+:root{
+    --text-color-P: #00B140;
+    --text-color-S: #121416;
+    --text-color-2: #fff9;
+    --text-color-3: #132012;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
