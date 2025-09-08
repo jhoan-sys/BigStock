@@ -1,0 +1,147 @@
+@import url(../styles/fonts.css);
+
+:root{
+    --text-color-P: #00B140;
+    --text-color-S: #111318;
+    --text-color-2: #fff9;
+    --cards: #161a22;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Montserrat Alternates';
+    background-color: var(--text-color-S);
+    color: var(--text-color-2);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 16px;
+    padding: 16px;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle img{
+    width: 35vh;
+    height: 25vh;
+}
+
+.tittle span{
+    margin: 0px 0px 28px;
+}
+
+.content-cards{
+    background-color: var(--cards);
+    margin: 0px 0px 21px;
+    border-radius: .645rem;
+    border-width: 1px;
+    min-width: 348px;
+    min-height: 436px;
+}
+
+.content-cards .tittle-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.tittle-cards #tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 0px 7px;
+}
+
+.tittle-cards #description{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 6px 0px 0px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 21px;
+}
+
+.login .flex{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    margin: 0px 0px 7px;
+}
+
+.login .name_user{
+    margin: 0px 0px 16px;
+}
+
+.login .pass_user{
+    margin: 16px 0px 0px;
+}
+
+.login .text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login input{
+    display: flex;
+    font-size: 14px;
+    background-color: #111318;
+    color: var(--text-color-2);
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 8px 0px 0px;
+    padding: 8px 12px;
+}
+
+.login .login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--text-color-P);
+    color: var(--text-color-S);
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 16px 0px 0px;
+    padding: 8px 12px;
+}
+
+.register-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color-2);
+    font-size: 14px;
+    margin: 16px 0px 0px;
+    gap: 5px;
+}
+
+.register-btn a{
+    color: var(--text-color-P);
+}
+
+.ti {
+    color: #fff;
+}
