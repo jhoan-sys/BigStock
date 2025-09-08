@@ -51,7 +51,7 @@ html{
     border-radius: .645rem;
     border-width: 1px;
     min-width: 348px;
-    min-height: 436px;
+    min-height: 370px;
 }
 
 .content-cards .tittle-cards{
@@ -126,6 +126,12 @@ html{
     border-width: 1px;
     margin: 16px 0px 0px;
     padding: 8px 12px;
+    cursor: pointer;
+}
+
+.login .login-btn:hover{
+    background-color: #009933;
+    color: var(--text-color-2);
 }
 
 .register-btn{
