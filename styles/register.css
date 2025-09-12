@@ -1,0 +1,106 @@
+@import url(../styles/fonts/fonts.css);
+
+:root{
+    --text-color-P: #00B140;
+    --text-color-S: #111318;
+    --text-color-2: #fff9;
+    --cards: #161a22;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Montserrat Alternates';
+    background-color: var(--text-color-S);
+    color: var(--text-color-2);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+    padding: 16px;
+    resize: both;
+    overflow: hidden;
+
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle img{
+    width: 35vh;
+    height: 25vh;
+}
+
+#description{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 0px 30px;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cards);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.content-form #tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0px 0px 30px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: #111318;
+    color: var(--text-color-2);
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 8px 0px 0px;
+    padding: 8px 12px;
+}
+
+.form-btn{
+    background-color: var(--text-color-P);
+    color: var(--text-color-2);
+    border-radius: 8px;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 16px;
+    padding: 8px 12px;
+}
+
+.login-btn a{
+    color: var(--text-color-P);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin{
+    margin: 0px 0px 16px;
+}
